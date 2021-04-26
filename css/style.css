@@ -6,7 +6,7 @@
 #body-container{
     width: 1200px;
     margin-bottom: 10px;
-
+    
 }
 #centro{
     width: 70%;
@@ -16,7 +16,7 @@
     content: "";
     display: table;
     clear: both;
-
+    
 }
 /* utility class */
 #float{
@@ -27,21 +27,46 @@
 }
 .relative{
     position: relative;
-    width: 100%;
-    
+    width: 100%;  
 }
 #absolute-heart{
     position: absolute;
-    top: 10px;
-    left: 225px;
+    top: 15px;
+    left: 228px;
 }
 #absolute-bottom{
     position: absolute;
-    left: 10px;  
-    bottom: 5px;
+    bottom: 10px;
 }
-
-
+.heart{
+    font-size: 30px;
+    background: white;
+    
+}
+.sconto{
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: red;
+}
+.info{
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: green;
+}
+.nome-arti{
+    margin-top: 5px;
+    font-size: 10px;
+}
+.descrizione-arti{
+    font-size: 10px;
+}
+.prezzo{
+    margin-top: 10px;
+    font-size: 10px;
+    color: red;
+}
 
 
 
@@ -57,17 +82,16 @@
 /* contenitori float */
 .left{
     width: 30%;
-    background-color: black;
     padding-right: 5px;
 }
+
 .center{
     width: 30%;
-    background-color: black;
     padding: 0px 5px;
 }
+
 .right{
     width: 30%;
-    background-color: black;
     padding-left: 5px;
 }
 /* contenitori img */
