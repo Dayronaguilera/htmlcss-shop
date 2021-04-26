@@ -23,7 +23,7 @@
     background-position: center;
     background-size: cover; 
     width: 100%;
-    height: 400px;   
+    height: 300px;   
 }
 .relative{
     position: relative;
@@ -31,8 +31,8 @@
 }
 #absolute-heart{
     position: absolute;
-    top: 15px;
-    left: 228px;
+    top: 2px;
+    left: 185px;
 }
 #absolute-bottom{
     position: absolute;
@@ -47,13 +47,13 @@
     padding: 5px;
     font-size: 10px;
     color: white;
-    background-color: red;
+    background-color: rgb(190, 56, 56);
 }
 .info{
     padding: 5px;
     font-size: 10px;
     color: white;
-    background-color: green;
+    background-color: rgb(64, 122, 64);
 }
 .nome-arti{
     margin-top: 5px;
@@ -65,7 +65,7 @@
 .prezzo{
     margin-top: 10px;
     font-size: 10px;
-    color: red;
+    color: rgba(214, 54, 54, 0.685);
 }
 
 
@@ -81,26 +81,74 @@
 }
 /* contenitori float */
 .left{
-    width: 30%;
+    width: 25%;
     padding-right: 5px;
 }
 
 .center{
-    width: 30%;
-    padding: 0px 5px;
+    width: 25%;
+    padding: 0px 3px;
 }
 
 .right{
-    width: 30%;
+    width: 25%;
     padding-left: 5px;
 }
-/* contenitori img */
+.footer-img{
+    height: 50px;
+    background-color: rgb(35, 199, 109);
+}
+.text-img{
+    font-size: 10px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+/* contenitori img row 1  */
 .box-img-1{
     background: url(../img/1.webp); 
 }
+.box-img-1:hover{
+    background: url(../img/1-hover.webp);
+}
+
 .box-img-2{
     background: url(../img/2.webp);  
 }
+.box-img-2:hover{
+    background: url(../img/2-hover.webp);
+}
+
 .box-img-3{
     background: url(../img/3.webp);   
+}
+.box-img-3:hover{
+    background: url(../img/3-hover.webp);
+}
+
+/* contenitori img row 2  */
+.box-img-4{
+    background: url(../img/4.webp); 
+}
+.box-img-4:hover{
+    background: url(../img/4-hover.webp);
+}
+
+.box-img-5{
+    background: url(../img/5.webp);  
+}
+.box-img-5:hover{
+    background: url(../img/5-hover.webp);
+}
+
+.box-img-6{
+    background: url(../img/6.webp);   
+}
+.box-img-6:hover{
+    background: url(../img/6-hover.webp);
+}
+.prezzo-1{
+    margin-top: 10px;
+    font-size: 10px;
 }
